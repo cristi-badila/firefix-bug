@@ -1,0 +1,13 @@
+{
+  "name": "firefox-bug",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Cristi Badila <cristi.badila@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+	"start": "http-server -p 8080"
+  }
+}

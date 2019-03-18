@@ -1,0 +1,13 @@
+{
+  "name": "listener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cristi Badila <cristi.badila@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "local-web-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "ws -p 26566 --mocks my-resource.js --log.format tiny --cors.origin *"
+  }
+}
